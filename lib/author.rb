@@ -3,7 +3,7 @@ class Author
 
   def initialize
     @name = name
-    artist.title = title
+    post.title = title
   end
 
 end

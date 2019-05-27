@@ -1,8 +1,8 @@
 class Post
- attr_accessor :title
+ attr_accessor :title, :name
 def initialize
   @title = title
-  Author.name = name
+  @name =  Author.name
 end
 
 end
